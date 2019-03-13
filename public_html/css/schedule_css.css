@@ -612,9 +612,14 @@ div{
     text-align: center;
 }
 .nav .btn{
+    width: 15px;
+    height: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
     text-align: center;
     font-weight: bolder;
-    color: skyblue;
+    background-color: white;
+    color: gray;
 }
 .btn:hover{
     cursor: pointer;
