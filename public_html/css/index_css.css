@@ -319,24 +319,24 @@ nav a#active{
 }
 .background{
   position: absolute;
-   top: 194px;
-   z-index: -1;
-   width: 1900px;
-   height: 700px;
-   border-top: 2px solid #efeded;
-   background-image: linear-gradient(transparent, transparent) ,url("image/background.jpg");
-   background-repeat: repeat-x;
-   background-size: 1400px 600px;
+  top: 194px;
+  z-index: -1;
+  width: 1900px;
+  height: 700px;
+  border-top: 2px solid #efeded;
+  background-image: linear-gradient(transparent, transparent) ,url("image/background.jpg");
+  background-repeat: repeat-x;
+  background-size: 1400px 600px;
 }
 .background_bottom{
   position: absolute;
-   top: 796px;
-   z-index: -1;
-   width: 1900px;
-   height: 600px;
-   background-image: linear-gradient(transparent, transparent) ,url("image/background_bottom.jpg");
-   background-repeat: repeat-x;
-   background-size: 1400px 600px;
+  top: 796px;
+  z-index: -1;
+  width: 1900px;
+  height: 600px;
+  background-image: linear-gradient(transparent, transparent) ,url("image/background_bottom.jpg");
+  background-repeat: repeat-x;
+  background-size: 1400px 600px;
  }
 .top-area{
   float: left;
