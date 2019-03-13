@@ -94,10 +94,10 @@
       <div class="top_area">
           <div class="notice_type">
               <ul>
-                <li><a target="_self" href="notice.php">전체</a></li>
-                <li><a target="_self" href="notice.php?sort=<?php $sort = 'mse'; echo $sort?>">학과공지</a></li>
-                <li><a target="_self" href="notice.php?sort=<?php $sort = 'recruiting'; echo $sort?>">취업공지</a></li>
-                <li><a target="_self" href="notice.php?sort=<?php $sort = 'class'; echo $sort?>">수업공지</a></li>
+                <li><a target="_self" href="notice.html">전체</a></li>
+                <li><a target="_self" href="notice.html?sort=<?php $sort = 'mse'; echo $sort?>">학과공지</a></li>
+                <li><a target="_self" href="notice.html?sort=<?php $sort = 'recruiting'; echo $sort?>">취업공지</a></li>
+                <li><a target="_self" href="notice.html?sort=<?php $sort = 'class'; echo $sort?>">수업공지</a></li>
               </ul>
           </div>
       </div>
@@ -179,7 +179,7 @@
   ?>
   <tr>
           <td width="70" class="pin_list_num">공지</td>
-          <td width="500" class="pin_list_title"><a href='notice_click.php?id=<?php echo $id?>'><?php
+          <td width="500" class="pin_list_title"><a href='notice_click.html?id=<?php echo $id?>'><?php
             echo "[" . $notice['sort'] . "] " . $notice['title'];
           ?></a></td>
           <td width="120" class="pin_list_writer"><?php echo $notice['writer'];?></td>
@@ -249,7 +249,7 @@
     ?>
     <tr>
       <td width="70" class="list_num"><?php echo $j; ?></td>
-      <td width="500" class="list_title"><a href='notice_click.php?id=<?php echo $id?>'><?php echo "[" . $notice['sort'] . "] " . $notice['title'];?></a></td>
+      <td width="500" class="list_title"><a href='notice_click.html?id=<?php echo $id?>'><?php echo "[" . $notice['sort'] . "] " . $notice['title'];?></a></td>
       <td width="120" class="list_writer"><?php echo $notice['writer'];?></td>
       <td width="100" class="list_date"><?php echo $notice['date_year'];?></td>
       <td width="100" class="list_hits"><?php echo $notice['hits'];?></td>
@@ -265,8 +265,8 @@
       <div class="bottom_paging_box"><?php
       $search = $_GET['search_value'];
       if($current_page != 0){?>
-    		<a href="notice.php?sort=<?php echo $sort?>&page_number=0&search_value=<?php echo $search?>" class="page_first">처음</a>
-        <a href="notice.php?sort=<?php echo $sort?>&page_number=<?php echo $current_page -1?>&search_value=<?php echo $search?>" class="page_prev">이전</a><?php
+    		<a href="notice.html?sort=<?php echo $sort?>&page_number=0&search_value=<?php echo $search?>" class="page_first">처음</a>
+        <a href="notice.html?sort=<?php echo $sort?>&page_number=<?php echo $current_page -1?>&search_value=<?php echo $search?>" class="page_prev">이전</a><?php
         }
         for($i = 0; $i < $page_num; $i++)
         {
@@ -276,12 +276,12 @@
           }
           else
           {?>
-            <a href="notice.php?sort=<?php echo $sort?>&page_number=<?php echo $i?>&search_value=<?php echo $search?>" class="page_mid"><?php echo $i+1?></a><?php
+            <a href="notice.html?sort=<?php echo $sort?>&page_number=<?php echo $i?>&search_value=<?php echo $search?>" class="page_mid"><?php echo $i+1?></a><?php
           }
         }
         if($current_page != $page_num-1){?>
-        <a href="notice.php?sort=<?php echo $sort?>&page_number=<?php echo $current_page+1?>&search_value=<?php echo $search?>" class="page_next">다음</a>
-        <a href="notice.php?sort=<?php echo $sort?>&page_number=<?php echo $page_num-1?>&search_value=<?php echo $search?>" class="page_end">끝</a><?php
+        <a href="notice.html?sort=<?php echo $sort?>&page_number=<?php echo $current_page+1?>&search_value=<?php echo $search?>" class="page_next">다음</a>
+        <a href="notice.html?sort=<?php echo $sort?>&page_number=<?php echo $page_num-1?>&search_value=<?php echo $search?>" class="page_end">끝</a><?php
       }?>
       </div>
       </article>

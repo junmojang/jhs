@@ -156,7 +156,7 @@
               $id = $notice['number'];?>
               <tr>
                 <td width="70" class="list_num"><?php echo $k+1; ?></td>
-                <td width="500" class="list_title"><a href='notice_click.php?id=<?php echo $id?>'><?php echo $notice['title'];?></a></td>
+                <td width="500" class="list_title"><a href='notice_click.html?id=<?php echo $id?>'><?php echo $notice['title'];?></a></td>
                 <td width="120" class="list_writer"><?php echo $notice['writer'];?></td>
                 <td width="100" class="list_date"><?php echo $notice['date_year'];?></td>
                 <td width="100" class="list_hits"><?php echo $notice['hits']."</br>";?></td>
@@ -165,7 +165,7 @@
         </div>
 
         <div id="show_more">
-	<a href="notice.php?search_value=<?php echo $search;?>&sort=<?php echo "search"?>&search=" target="_self" class="show_more">더보기</a>
+	<a href="notice.html?search_value=<?php echo $search;?>&sort=<?php echo "search"?>&search=" target="_self" class="show_more">더보기</a>
         </div>
         <hr>
 
@@ -191,7 +191,7 @@
               $id = $board['number'];?>
               <tr>
                 <td width="70" class="list_num"><?php echo $k+1; ?></td>
-                <td width="500" class="list_title"><a href='board_click.php?id=<?php echo $id?>'><?php echo $board['title'];?></a></td>
+                <td width="500" class="list_title"><a href='board_click.html?id=<?php echo $id?>'><?php echo $board['title'];?></a></td>
                 <td width="120" class="list_writer"><?php echo $board['writer'];?></td>
                 <td width="100" class="list_date"><?php echo $board['date_year'];?></td>
                 <td width="100" class="list_hits"><?php echo $board['hits']."</br>";?></td>
@@ -201,7 +201,7 @@
         </div>
 
         <div id="show_more">
-	<a href="board.php?search_value=<?php echo $search;?>&sort=<?php echo "search"?>&search=" target="_self" class="show_more">더보기</a>
+	<a href="board.html?search_value=<?php echo $search;?>&sort=<?php echo "search"?>&search=" target="_self" class="show_more">더보기</a>
         </div>
 
 
