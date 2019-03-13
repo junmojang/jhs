@@ -1,0 +1,232 @@
+.head {
+    display: block;
+    padding: 50px;
+}
+
+
+.login_box {
+    display: block;
+    text-align: right;
+    font-size: 10px;
+}
+
+
+nav {
+    float: right;
+    display: block;
+    position: relative;
+}
+nav a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    width: 124px;
+    text-align: center;
+    padding-top: 140px;
+    text-indent: 10px;
+    color: #096b9a;
+    text-decoration: none;
+}
+nav a:hover {
+    background: #096b9a;
+    color: #fff;
+}
+
+
+header {
+    display: block;
+    position: relative;
+}
+
+
+.mse_logo {
+    display: block;
+    overflow: hidden;
+    width: 250px;
+    height: 148px;
+    text-indent: 101%;
+    white-space: nowrap;
+    margin-left: 220px;
+    margin-top: 80px;
+    background-position: -4px -4px;
+    background-image: linear-gradient(transparent, transparent) ,url("image/logo.jpg");
+    background-repeat: no-repeat;
+    background-size: 250px 100px;
+}
+
+
+aside#left{
+    width: 30%;
+    height: 600px;
+    float: left;
+}
+
+.search {
+    overflow: hidden;
+}
+.search_main {
+    width: 100%;
+}
+.search_main .inp {
+    float: left;
+    width: 60%;
+    height: 20px;
+    font-size: 12px;
+}
+.search_main .btn {
+    width: 70px;
+    height: 20px;
+    margin: 0;
+    border: solid 1px;
+    font-size: 12px;
+    line-height: 13px;
+    color: #096b9a;
+    text-align: center;
+    cursor: pointer;
+    align-self: center;
+}
+
+
+.background {
+    background-image: linear-gradient(transparent, transparent) ,url("image/background.jpg");
+    background-repeat: repeat-x;
+    background-size: 1400px 600px;
+}
+
+
+.content {
+    padding: 50px;
+}
+
+
+.top-area {
+}
+.bottom-area {
+    overflow: hidden;
+}
+
+
+.box{
+    float: left;
+    display: block;
+    width: 30%;
+    height: 400px;
+    margin: 10px;
+    padding: 3px;
+    color: #fff;
+    background: #e7e7e5;
+}
+.box_title{
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left;
+    font-size: 20px;
+    background-color: #096b9a;
+  }
+.box_title .button {
+    float: right;
+    border: none;
+    font-size: 15px;
+    color: #fff;
+    margin-right: 5px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.box_type {
+    float: right;
+}
+.box_type ul li {
+    display: inline;
+    list-style: none;
+}
+.box_type ul li a {
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.box_main {
+    margin-top: 60px;
+    margin-left: 10px;
+    width: 86%;
+    min-height: 280px;;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif, '돋움';
+    background-color: #f8f8f8;
+    padding-right: 10px;
+}
+
+
+.diaryWrap {
+    margin-top: 60px;
+    margin-left: 10px;
+    width: 78%;
+    min-height: 280px;;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif, '돋움';
+    background-color: #f8f8f8;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.diaryWrap form {
+    display: block;
+}
+.diarySearch .diaryRight input {
+    vertical-align: middle;
+    -webkit-rtl-ordering: logical;
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    font: 400 13.3333px Arial;
+    -webkit-writing-mode: horizontal-tb !important;
+}
+.diarySearch .diaryRight input[type="hidden" i] {
+    -webkit-appearance: initial;
+    background-color: initial;
+    cursor: default;
+    border: initial;
+    display: none;
+}
+.diarySearch .diaryRight input[type="image" i] {
+    cursor: pointer;
+    -webkit-appearance: initial;
+    background-color: initial;
+    border: initial;
+}
+.diaryWrap .diarySearch {
+    padding: 3px 0;
+    height: 20px;
+}
+.diaryWrap .diarySearch, .diaryContent, .diaryPage, .diaryButton {
+    clear: both;
+    width: 100%;
+}
+.diaryWrap th, td, select, textarea {
+    font-size: 12px;
+}
+.diaryWrap div{
+  font-size: 12px;
+}
+.diaryWrap input{
+  font-size: 12px;
+}
+.diaryWrap .diaryLeft {
+    float: left;
+}
+.diaryWrap .diaryRight {
+    float: right;
+}
+
+footer {
+    background-color: #ededef;
+    border-top: 1px solid;
+    clear: both;
+    text-align: left;
+    margin-top: 1090px;
+    width: 100%;
+    height: 100px;
+}
