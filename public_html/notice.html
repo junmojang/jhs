@@ -53,7 +53,7 @@
         $user_id = $_SESSION['user_id'];
         $user_name = $_SESSION['user_name'];
         echo "<p><strong>$user_name</strong> 님~~ "; ?>
-          <a href="changepw.php" target="_self" id="register">비밀번호변경</a>
+          <a href="changepw.html" target="_self" id="register">비밀번호변경</a>
           <a href="php/logout.php" id="forgot">로그아웃</a><?php
     }?>
   </div>
@@ -64,7 +64,7 @@
   <aside id="left">
 
     <div class="search_main">
-      <form action = "search_result.php" method="get">
+      <form action = "search_result.html" method="get">
         <input title="홈페이지 검색어 입력" type="text" name="search_value" class="inp" style="ime-mode:active" placeholder="검색어 입력">
         <input type="hidden" name="sort" value="search">
         <button type="submit" name="search" class="btn"></button>
@@ -102,13 +102,13 @@
           </div>
       </div>
 
-      <form action = "notice.php" method="get">
+      <form action = "notice.html" method="get">
           <input type="text" class="notice_search" name="search_value">
           <input type="hidden" name="sort" value="search">
           <button type="submit" name="search" class="notice_search_btn">검색</button>
         </form>
 
-      <a href="newnotice.php" class="new_notice">
+      <a href="newnotice.html" class="new_notice">
         <span class="blind">글쓰기</span>
       </a>
       <?php

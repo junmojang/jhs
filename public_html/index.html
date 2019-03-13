@@ -56,7 +56,7 @@
         $user_id = $_SESSION['user_id'];
         $user_name = $_SESSION['user_name'];
         echo "<p><strong>$user_name</strong> 님~~ "; ?>
-          <a href="changepw.php" target="_self" id="register">비밀번호변경</a>
+          <a href="changepw.html" target="_self" id="register">비밀번호변경</a>
           <a href="php/logout.php" id="forgot">로그아웃</a><?php
     }?>
   </div>
@@ -69,7 +69,7 @@
   <aside id="left">
 
     <div class="search_main">
-      <form action = "search_result.php" method="get">
+      <form action="search_result.html" method="get">
         <input title="홈페이지 검색어 입력" type="text" name="search_value" class="inp" style="ime-mode:active" placeholder="검색어 입력">
         <input type="hidden" name="sort" value="search">
         <button type="submit" name="search" class="btn"></button>
@@ -77,8 +77,8 @@
     </div>
 
     <div class="laguage">
-      <a href="index.php" target="_self" class="index_kor">한국어</a>
-      <a href="home_eng.php" target="_self" class="index_eng">English</a>
+      <a href="index.html" target="_self" class="index_kor">한국어</a>
+      <a href="home_eng.html" target="_self" class="index_eng">English</a>
     </div>
   </aside>
 
@@ -130,7 +130,7 @@
 
             <div class="noti_title">
               MSE NOTICE
-              <a href="notice.php" target="_self" class="button">+더보기</a>
+              <a href="notice.html" target="_self" class="button">+더보기</a>
             </div>
             <div class="noti_type">
               <?php
@@ -194,7 +194,7 @@
 
             <div class="board_title">
               MSE BOARD
-              <a href="board.php" target="_self" class="button">+더보기</a>
+              <a href="board.html" target="_self" class="button">+더보기</a>
             </div>
             <div class="board_type">
               <ul>
@@ -259,7 +259,7 @@
 
             <div class="sched_title">
               MSE SCHEDULE
-              <a href="schedule.php" target="_self" class="button">+더보기</a>
+              <a href="schedule.html" target="_self" class="button">+더보기</a>
             </div>
             <div class="sched_main">
               <div class="diaryWrap">
