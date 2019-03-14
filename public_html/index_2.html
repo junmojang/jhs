@@ -7,30 +7,28 @@
         <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
         <script type="text/javascript" src="js/carousel.js"></script>
     </head>
-
+    
     <body>
         <div class="head">
-            <div>
-                <span class="login_box">
-                    <?php
-                    if(!isset($_SESSION['user_id'])) { ?>
-                    <form method="post" action="php/login_ok.php" style="margin-left: auto; margin-right: 0px;">
-                        <div class="login_input">
-                            아이디 <input type="text" name="user_id"/>
-                            비밀번호 <input type="password" name="user_pw"/>
-                            <input type="submit" value="로그인" class="login_btn"/>
-                            <a href="php/signup.php" target="_self" id="register">회원가입</a>
-                        </div>
-                    </form>
-                    <?php } else {
-                        $user_id = $_SESSION['user_id'];
-                        $user_name = $_SESSION['user_name'];
-                        echo "<p><strong>$user_name</strong> 님~~ "; ?>
-                        <a href="changepw.html" target="_self" id="register">비밀번호변경</a>
-                        <a href="php/logout.php" id="forgot">로그아웃</a><?php
-                    }?>
-                </span>
-            </div>
+            <span class="login_box">
+                <?php
+                if(!isset($_SESSION['user_id'])) { ?>
+                <form method="post" action="php/login_ok.php" style="margin-left: auto; margin-right: 0px;">
+                    <div class="login_input">
+                        아이디 <input type="text" name="user_id"/>
+                        비밀번호 <input type="password" name="user_pw"/>
+                        <input type="submit" value="로그인" class="login_btn"/>
+                        <a href="php/signup.php" target="_self" id="register">회원가입</a>
+                    </div>
+                </form>
+                <?php } else {
+                    $user_id = $_SESSION['user_id'];
+                    $user_name = $_SESSION['user_name'];
+                    echo "<p><strong>$user_name</strong> 님~~ "; ?>
+                    <a href="changepw.html" target="_self" id="register">비밀번호변경</a>
+                    <a href="php/logout.php" id="forgot">로그아웃</a><?php
+                }?>
+            </span>
             <div>
                 <header>
                     <a data-clk="top.logo" href="index.html">
@@ -47,7 +45,6 @@
                 </nav>
             </div>
         </div>
-
         <div class="content">
             <div class="counter">
                 <?php include "count.php"; ?>
@@ -67,10 +64,10 @@
                 </div>
             </aside>
 
-            <!-- <div class="background">
+            <div class="background">
             </div>
             <div class="background_bottom">
-            </div> -->
+            </div>
 
             <!-- <section> -->
                 <div>
@@ -260,7 +257,6 @@
                 </div>
             <!-- </section> -->
         </div>
-
         <footer>
             <br />주소 : 경기도 용인시 수지구 죽전로 152, 단국대학교 국제관 201호 (우)16890 <br>
             COPYRIGHT 2019 BY DANKOOK UNIVERSITY, INTERNATIONAL COLLEGE MOBILE SYSTEM ENGINEERING <1D1S>
