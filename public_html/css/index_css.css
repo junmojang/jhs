@@ -407,7 +407,7 @@ aside#left{
   padding-left: 10px;
   padding-right: 10px;
 }
-.board_type ul li a : hover{
+.board_type ul li a:hover{
   color: black;
   text-decoration: none;
   padding-left: 10px;
