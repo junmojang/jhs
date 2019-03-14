@@ -1,16 +1,98 @@
+{
+  padding: 0px;
+  margin: 0px;
+}
+.left{
+  float: left;
+}
+.right{
+  float: right;
+}
+.active{
+  font-weight: bold;
+}
+body{
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+header{
+  width: 100%;
+  background-color: #fff;
+  border-bottom: 2px solid #efeded;
+}
+a: webkit-any-link{
+  color: -webkit-link;
+  cursor: pointer;
+}
+header .login_box{
+  width: 100%;
+  height: 65px;
+  display: block;
+  text-align: right;
+  font-size: 10px;
+}
+.login_box .login_input{
+  font-family: sans-serif;
+  width: 40%;
+  padding: 20px;
+}
+.login_btn{
+  cursor: pointer;
+}
+header .main_header{
+  width: 75%;
+  height: 150px;
+  margin: auto;
+}
+header .logo_box{
+  width: 300px;
+  height: 100%;
+  position: relative;
+  box-sizing: border-box;
+}
+.logo_box .logo{
+  width: 250px;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+  margin: 0 0 20px 40px;
+}
+.navigation{
+  width: 70%;
+  margin: 0;
+  padding: 0;
+}
+.navigation .menu{
+  width: 13%;
+  height: 150px;
+  position: relative;
+  display: inline-block;
+  float: left;
+  vertical-align: bottom;
+}
+.navigation .menu a{
+  width: 100%;
+  height: 220px;
+  line-height: 350px;
+  position: absolute;
+  bottom: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #096b9a;
+  text-decoration: none;
+  text-align: center;
+}
+.menu>a:hover{
+  background: #096b9a;
+  color: #fff;
+}
+
 .head {
     display: block;
     overflow: hidden;
     border-bottom: solid 1px gainsboro;
 }
-
-
-.login_box {
-    display: block;
-    text-align: right;
-    font-size: 10px;
-}
-
 
 nav {
     float: right;
@@ -105,8 +187,6 @@ aside#left{
 .bottom-area {
     overflow: hidden;
 }
-
-
 .photo {
     float: left;
     width: 100%;
