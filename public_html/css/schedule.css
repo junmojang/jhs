@@ -10,20 +10,6 @@
   margin-top: 55px;
   border-top: 1px solid #bbbbbb;
 }
-.title{
-  width: 250px;
-  display: block;
-  padding-top: 10px;
-  margin-bottom: 5px;
-  border-top: 10px solid #096b9a; 
-  font-size: 1.4rem;
-  color: #4f4f4f;
-  background-color: #fefefe;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.small_title{
-  font-size: 0.8rem;
-}
 
 .diaryWrap {
   padding: 15px 0 15px 0;

@@ -9,27 +9,6 @@
     margin-left: 36px;
     margin-right: 36px;
 }
-.title {
-    font-size: 30px;
-    color: #4f4f4f;
-    background-color: #fefefe;
-    border-top: 1px solid #bbbbbb;
-    padding-left: 50px;
-    font-family: Arial, Helvetica, sans-serif;
-    overflow: hidden;
-}
-.title .small_title {
-    padding-right: 50px;
-    font-size: 18px;
-    font-family: Arial, Helvetica, sans-serif;
-    float: right;
-}
-.title .blue {
-    background-color: #096b9a;
-    margin: 0 0 10px 0;
-    width: 250px;
-    height: 10px;
-}
 .post_type ul {
     list-style: none;
     text-align: left;

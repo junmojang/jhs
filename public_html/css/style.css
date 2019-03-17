@@ -179,6 +179,22 @@ header {
 }
 
 
+.title {
+    width: 250px;
+    display: block;
+    padding-top: 10px;
+    margin-bottom: 5px;
+    border-top: 10px solid #096b9a; 
+    font-size: 1.4rem;
+    color: #4f4f4f;
+    background-color: #fefefe;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.small_title {
+    font-size: 0.8rem;
+}
+
+
 .top-area {
     overflow: hidden;
 }
