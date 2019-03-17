@@ -1,6 +1,7 @@
 var today = new Date();
 function onClickBtn(dir){
-
+    var today = new Date();
+    
     var objYear = document.getElementById("year");
     var objMonth = document.getElementById("month");
 
@@ -26,6 +27,12 @@ function onClickBtn(dir){
             return ;
         }
         objMonth.value++;
+        changeOption();
+    }
+    if(dir == "today"){
+        objYear.value = today.getFullYear();
+        objMonth.value = today.getMonth()+1;
+        
         changeOption();
     }
 }
