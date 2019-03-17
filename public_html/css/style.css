@@ -37,7 +37,7 @@ header .main_header {
   margin: auto;
 }
 header .logo_box {
-    margin: 0 30px 0 30px;
+    margin: 0 10em 0 10em;
     height: 150px;
     position: relative;
     box-sizing: border-box;
@@ -49,20 +49,18 @@ header .logo_box {
   bottom: 0;
   margin: 0 0 20px 40px;
 }
-.logo_box img {
-}
 
 
 nav {
     float: right;
     display: block;
     position: relative;
-    margin-right: 50px;
+    margin: 0 8em 0 0;
 }
 nav a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
-    padding: 235px 18px 5px 18px;
+    padding: 235px 20px 5px 20px;
     text-align: center;
     text-indent: 10px;
     color: #096b9a;
@@ -97,10 +95,11 @@ header {
     display: block;
     width: 95%;
     margin: 5px;
-    padding: 5px;
+    padding: 10px;
     border: solid 1px lightgrey;
     box-sizing: border-box;
     background: white;
+    overflow: hidden;
 }
 .login_box a {
     font-family: sans-serif;
@@ -114,10 +113,12 @@ header {
     margin: 2px;
 }
 .login_input input {
-    width: 100%;
     font-family: sans-serif;
+    width: 98%;
     height: 3em;
     box-sizing: border-box;
+    margin: 2px;
+    border: solid 1px lightgrey;
 }
 .login_btn {
     width: 100%;
@@ -135,6 +136,10 @@ header {
     background: white;
     border: solid 1px #096b9a;
     transition: color .2s, background .2s, border .2s;
+}
+.login_box .register_btns {
+    float: right;
+    padding-top: 5px;
 }
 .search {
     overflow: hidden;
@@ -166,7 +171,7 @@ header {
 .content {
     overflow: hidden;
     box-sizing: content-box;
-    padding: 20px 50px 50px 50px;
+    padding: 20px 10em 10em 10em;
     background-image: linear-gradient(transparent, transparent), url("image/background.jpg");
     background-repeat: no-repeat;
     background-size: 100% 600px;
