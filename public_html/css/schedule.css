@@ -1,0 +1,134 @@
+
+.aside-right{
+  background-color: white;
+}
+
+.main-content{
+  width: 960px;
+  height: 900px;
+  margin: auto;
+  margin-top: 55px;
+  border-top: 1px solid #bbbbbb;
+}
+.title{
+  width: 250px;
+  display: block;
+  padding-top: 10px;
+  margin-bottom: 5px;
+  border-top: 10px solid #096b9a; 
+  font-size: 1.4rem;
+  color: #4f4f4f;
+  background-color: #fefefe;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.small_title{
+  font-size: 0.8rem;
+}
+
+.diaryWrap {
+  padding: 15px 0 15px 0;
+  margin-bottom: -10px;
+  font-family: Arial, Helvetica, sans-serif, '돋움';
+  background-color: #f8f8f8;
+}
+.sort_area, .diaryContent{
+  width: 90%;
+  margin: auto;
+}
+.sort_area{
+  height: 30px;
+  margin-bottom: 10px;
+}
+.btn_area{
+  width: 60px;
+  height: 30px;
+}
+.btn_area button{
+  width: 24px;
+  height: 30px;
+  padding: 0;
+  margin: 0;
+  float: left;
+  background-color: white;
+  border: 1px solid lightgray;
+  color: #666666;
+  text-align: center;
+  vertical-align: center;
+  font-size: 0.6rem;
+}
+.btn_area .today{
+  width: 40px;
+  font-size: .7rem;
+  font-weight: bold;
+}
+.btn_area button:hover{
+  cursor: pointer;
+  background-color: #ebebeb;
+}
+.date_area{
+  height: 100%;
+}
+.date_area select{
+  width: 100px;
+  height: inherit;
+}
+
+table{
+  box-sizing: border-box;
+  border: 1px solid #e2e2e2;
+  border-collapse: collapse;
+  table-layout: fixed;
+  word-break: break-all;
+}
+th, td{
+  border: 1px solid #e2e2e2;
+}
+th{
+  width: 14.055%;
+  height: 20px;
+  display: table-cell;
+  padding: 10px 0 3px 0;
+  background-color: #f3f4f4;
+  float: left;
+  border-top: 2px solid #dbdbdb;
+  text-align: center;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+td{
+  width: 14.055%;
+  height: 90px;
+  display: table-cell;
+  position: relative;
+  float: left;
+  overflow: hidden;
+  padding: 2px 0;
+  border: 1px solid #e2e2e2;
+  font-size: 0.75rem;
+  white-space: nowrap;
+}
+.listDay{
+  margin-left: 5px;
+  display: inline-block;
+}
+.bottom{
+    width: 90%;
+    height: 20px;
+    margin: auto;
+    padding: 20px 0 20px 0;
+}
+.register_btn{
+    width: 150px;
+    height: 30px;
+    line-height: 20px;
+    font-size: .7em;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    background-color: white;
+    float: right;
+    text-align: center;
+}
+.register_btn:hover{
+  cursor:pointer;
+  background-color: #ededed;
+}
