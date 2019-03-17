@@ -97,6 +97,7 @@ nav {
     float: right;
     display: block;
     position: relative;
+    margin-right: 50px;
 }
 nav a {
     font-family: Arial, Helvetica, sans-serif;
