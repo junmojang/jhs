@@ -13,7 +13,7 @@
 .post_type .field {
     display: inline flex;
     overflow: hidden;
-    padding: 5px 50px 0 50px;
+    padding: 10px 50px 0 50px;
 }
 .post_type .row {
     width: 60%;
@@ -30,8 +30,15 @@
     box-sizing: border-box;
     border-right: solid 1px;
 }
-.post_type form {
-    float: right;
+.post_type .newpost {
+    color: #096b9a;
+    text-decoration: none;
+    margin: 0 0 0 30px;
+    padding: 0 10px 0 10px;
+    font-family: sans-serif;
+    font-size: 18px;
+    border: solid 1px #096b9a;
+    border-radius: 5px;
 }
 .post_type input {
     width: 20em;
@@ -44,4 +51,5 @@
 .content-area {
     margin: 0 36px 0 36px;
     border: solid 1px;
+    background-color: #f8f8f8;
 }

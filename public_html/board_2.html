@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <?php session_start(); ?>
 <html>
-
 	<head>
 		<link href="css/style.css" type="text/css" rel="stylesheet">
 		<link href="css/style_page.css" type="text/css" rel="stylesheet">
@@ -85,7 +84,10 @@
 								</div>
 							</div>
 							<div class="field">
-								<form action="board_2.html" method="get">
+								<a href="newboard.html" class="newpost right"><i class="fas fa-edit"></i>글쓰기
+									<!-- <span class="blind">글쓰기</span> -->
+								</a>
+								<form action="board_2.html" method="get" class="right">
 									<input type="text" name="search_value">
 									<input type="hidden" name="sort" value="search">
 									<button type="submit" name="search" class="notice_search_btn">검색</button>
@@ -94,9 +96,6 @@
 						</div>
 					</div>
 					<div class="content-area">
-							<a href="newboard.html" class="new_notice">
-									<span class="blind">글쓰기</span>
-								  </a>
 								  <?php
 								  $sort = $_GET['sort'];
 								  $search = $_GET['search_value'];
