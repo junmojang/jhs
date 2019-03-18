@@ -1,0 +1,12 @@
+.input_form {
+    padding: 10px;
+    font-family: sans-serif;
+    overflow: hidden;
+}
+.input_form th {
+    width: 15%;
+    height: 2em;
+}
+.input_form td {
+    margin: 0;
+}

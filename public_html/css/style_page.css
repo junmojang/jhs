@@ -6,6 +6,7 @@
 
 .top_area {
     margin: 55px 36px 0 36px;
+    border-top: 1px solid #bbbbbb;
 }
 .post_type {
     padding: 0 0 10px 0;
@@ -49,7 +50,6 @@
 
 
 .content-area {
-    margin: 0 36px 0 36px;
-    border: solid 1px;
+    margin: 0 36px 10px 36px;
     background-color: #f8f8f8;
 }
