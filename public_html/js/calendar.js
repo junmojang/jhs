@@ -1,4 +1,5 @@
 var today = new Date();
+
 function onClickBtn(dir){
     var today = new Date();
     
@@ -99,7 +100,7 @@ function buildCalendar(){
         cell = row.insertCell();
         cell.classList.add("listBody"); //셀(td) 생성 후 class명 date 추가
 
-        num = document.createElement("div");
+        num = document.createElement("span");
         num.classList.add("listDay");
         num.innerHTML = i; // td 안에 숫자 부분 생성
 
@@ -115,6 +116,7 @@ function buildCalendar(){
             num.classList.add("font-blue");
             row = calendar.insertRow();
         }
+
     }
 
     if(cnt%7 != 0){
