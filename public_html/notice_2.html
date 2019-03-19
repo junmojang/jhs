@@ -23,8 +23,8 @@
 				<a href="notice_2.html">NOTICE</a>
 				<a href="schedule_2.html">SCHEDULE</a>
 				<a href="board_2.html">BOARD</a>
-				<a href="contact.html">CONTACT</a>
-				<a href="notice_click.html">MEMBERS</a>
+				<a href="contact_2.html">CONTACT</a>
+				<a href="members_2.html">MEMBERS</a>
 			</nav>
 		</header>
 
@@ -85,7 +85,10 @@
 								</div>
 							</div>
 							<div class="field">
-								<form action="notice_2.html" method="get">
+								<a href="newnotice_2.html" class="newpost right"><i class="fas fa-edit"></i>글쓰기
+									<!-- <span class="blind">글쓰기</span> -->
+								</a>
+								<form action="notice_2.html" method="get" class="right">
 									<input type="text" name="search_value">
 									<input type="hidden" name="sort" value="search">
 									<button type="submit" name="search" class="notice_search_btn">검색</button>
@@ -94,9 +97,6 @@
 						</div>
 					</div>
 					<div class="content-area">
-						<a href="newnotice.html" class="new_notice">
-							<span class="blind">글쓰기</span>
-							</a>
 							<?php
 							$sort = $_GET['sort'];
 							$search = $_GET['search_value'];
