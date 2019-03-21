@@ -56,7 +56,28 @@
 }
 
 
-.contact {
+.professors {
     width: 100%;
-    border: solid 1px;
+}
+.professors .row {
+    display: inline-flex;
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.professors .professor {
+    width: 50%;
+    display: inline-flex;
+    box-sizing: border-box;
+    border: solid 1px lightgrey;
+    font-family: sans-serif;
+    font-size: 15px;
+}
+.professors .professor img {
+    height: 220px;
+    padding: 0.5em;
+}
+.professors .professor .info {
+    display: block;
+    margin-right: 10px;
 }
